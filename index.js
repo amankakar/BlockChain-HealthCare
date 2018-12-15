@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReceptionsitFactory from "../build/contracts/ReceptionsitFactory.json";
 import Receptionist from "../build/contracts/Receptionsit.json";
-import { Form, Button, Input, Message, Card } from "semantic-ui-react";
+import { Form, Button, Input, Message, Card , Table} from "semantic-ui-react";
 import { Link } from "../routes";
 //import getWeb3 from "../ethereum/getWeb3";
 import web3 from "../ethereum/web3";
@@ -12,7 +12,7 @@ class index extends Component {
 
 
 
-
+//import table 
 
   render(){
     return(
